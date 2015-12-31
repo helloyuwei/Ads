@@ -9,12 +9,10 @@ import javax.servlet.*;
 public abstract class FilterAdapter implements Filter {
     @Override
     public void init(FilterConfig pFilterConfig) throws ServletException {
-
     }
 
     @Override
     public void doFilter(ServletRequest pServletRequest, ServletResponse pServletResponse, FilterChain pFilterChain) throws IOException, ServletException {
-
     }
 
     @Override
